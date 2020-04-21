@@ -1,0 +1,46 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  margin: 0 auto;
+  width: 90%;
+  position: relative;
+  background-color: rgb(221, 221, 221);
+}
+.menu-principal {
+  width: 100%;
+  background-color: black;
+  height: 4em;
+}
+.logo {
+  padding: 5px;
+  /* float: left; */
+  /* width: 50%; */
+}
+.container-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 4em;
+}
+.lista-rede-social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 4em;
+    margin: 0;
+    padding: 0;
+    
+}
+.container-rede-social ul {
+  list-style: none;
+}
+
+.size-rede-social {
+  width: 3em;
+}
